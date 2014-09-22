@@ -1,4 +1,4 @@
 Running Lab 3 Part 1
 Step 1: Navigate to the directory to the folder with this readme in the cmd window
-Step 2: make
-Step 3: ./prog
+Step 2: enter "make"
+Step 3: type "./prog"

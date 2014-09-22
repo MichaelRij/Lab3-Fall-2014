@@ -1,11 +1,11 @@
-prog: prog1.o 
-	g++ prog1.o -o prog
+CC = g++
+OBJ = prog1.o
 
-prog1.o: prog1.cpp
-	g++ -c prog1.cpp 
+prog: $(OBJ)
+	$(CC) $(OBJ) -o $@
+
+.cpp.o:
+	$(CC) -c $<
 
 clean: 
 	rm *.o prog
-
-archive:
-	
